@@ -1,7 +1,7 @@
 {
   "name": "forest-resort-backend",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "dist/server.ts",
   "scripts": {
     "start": "node src/server.ts",
     "dev": "nodemon --exec ts-node src/server.ts",
