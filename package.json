@@ -1,0 +1,38 @@
+{
+  "name": "forest-resort-backend",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "seed:admin": "ts-node src/scripts/seedAdmin.ts",
+    "seed:content": "ts-node src/scripts/seedContent.ts",
+    "seed": "npm run seed:admin && npm run seed:content"
+  },
+  "repository": "git@github.com:Kaveri17/forest-resort-backend.git",
+  "author": "kaveriarbyte <kaveri.s@arbyte.com.np>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.10.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "multer": "^2.2.0",
+    "nodemailer": "^9.0.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9",
+    "@types/multer": "^2",
+    "@types/node": "^25.6.0",
+    "@types/nodemailer": "^8.0.1",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

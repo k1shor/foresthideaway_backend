@@ -1,0 +1,121 @@
+export const activitiesSeed = [
+  {
+    slug: 'jeep-safari',
+    title: 'Jeep Safari',
+    tag: 'Wildlife',
+    duration: 'Half Day or Full Day',
+    img: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1400&q=80&fit=crop',
+    description:
+      "Track Bengal tigers, one-horned rhinos, wild elephants, and deer through Bardia's sal forest and open grasslands in an open-top 4WD with an experienced naturalist guide. Dawn drives offer the best odds — the light is golden, the animals are active, and the jungle is at its most alive.",
+    highlights: [
+      { title: 'Wildlife', body: "Bardia is one of Nepal's finest tiger destinations. Elephants, rhinos, deer, crocodiles, and an extraordinary diversity of birds complete the cast." },
+      { title: 'Guiding', body: 'Our naturalists are trained trackers with deep local knowledge — they read signs the untrained eye misses entirely.' },
+      { title: 'Timing', body: 'Dawn and dusk drives are most productive. Full-day safaris also include midday grassland scanning for resting predators.' },
+    ],
+    whatToExpect: ['Depart before sunrise for first light', 'Open 4WD with elevated game-viewing position', 'Expert naturalist guide throughout', 'Wildlife tracking across multiple park zones', 'Return by mid-morning or evening depending on duration'],
+    practicalNotes: ['Wear muted, earthy clothing — no bright colours', 'Bring a light layer for pre-dawn temperatures', 'Binoculars recommended', 'Camera telephoto lens advisable', 'Children welcome with parental supervision'],
+    order: 0,
+  },
+  {
+    slug: 'walking-safari',
+    title: 'Walking Safari',
+    tag: 'Nature',
+    duration: '3–4 Hours',
+    img: 'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1400&q=80&fit=crop',
+    description:
+      'Move slowly through the forest on foot and experience Bardia at a completely different register. On foot you hear things, smell things, and notice details that disappear at vehicle speed. A trained armed guide accompanies all walks for complete safety.',
+    highlights: [
+      { title: 'Sensation', body: 'Walking heightens every sense. The rustle of leaves, a distant alarm call, the scent of fresh elephant dung — on foot, Bardia reveals itself differently.' },
+      { title: 'Flora Focus', body: 'Walking safaris allow time for trees, medicinal plants, insects, and bird behaviour that jeep drives rush past.' },
+      { title: 'Safety', body: 'All walking safaris are led by a trained armed guide familiar with animal behaviour and emergency protocols.' },
+    ],
+    whatToExpect: ['Early morning departure (best timing)', 'Walk along forest trails and river edges', 'Naturalist explains flora, fauna, and tracks', 'Slower pace — discovery over distance', 'Return to resort for breakfast'],
+    practicalNotes: ['Closed-toe, sturdy footwear required', 'Muted clothing only', 'No strong perfumes or fragrances', 'Not recommended for guests with serious mobility limitations', 'Maximum group size: 6'],
+    order: 1,
+  },
+  {
+    slug: 'karnali-river-rafting',
+    title: 'Karnali River Rafting',
+    tag: 'Adventure',
+    duration: 'Half Day or Full Day',
+    img: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1400&q=80&fit=crop',
+    description:
+      "Float the Karnali River — one of Nepal's great waterways and the western boundary of Bardia National Park. Watch gharial crocodiles basking on sandbanks, spot river dolphins in the deeper channels, and take in the dramatic forested banks while the river carries you gently.",
+    highlights: [
+      { title: 'Wildlife on Water', body: 'Gharial crocodiles, river dolphins, migratory birds, and otters are all regularly seen from the river.' },
+      { title: 'Different Perspective', body: "Seeing Bardia's forest from the river reveals a completely different landscape and atmosphere." },
+      { title: 'Grade Level', body: 'The Karnali sections we use are calm to gentle — suitable for all fitness levels and non-swimmers with life jackets.' },
+    ],
+    whatToExpect: ['Transfer to launch point', 'Safety briefing & life jacket fitting', 'Guided float downstream (not whitewater)', 'Riverside stop for picnic or tea', 'Return transfer to resort'],
+    practicalNotes: ['Life jackets provided — mandatory', 'Waterproof bag for camera gear recommended', 'Swimwear or quick-dry clothing advisable', 'Full-day version includes riverside lunch', 'Not available during high monsoon (June–August)'],
+    order: 2,
+  },
+  {
+    slug: 'bird-watching-tour',
+    title: 'Bird Watching Tour',
+    tag: 'Nature',
+    duration: 'Morning or Full Day',
+    img: 'https://images.unsplash.com/photo-1560743173-567a3b5658b1?w=1400&q=80&fit=crop',
+    description:
+      "With over 400 recorded species, Bardia is one of South Asia's premier birding destinations. From the critically endangered Bengal florican to giant hornbills, pied kingfishers, and spectacular raptors — every morning walk is a living field guide.",
+    highlights: [
+      { title: '400+ Species', body: "Bardia's diverse habitats — sal forest, grassland, riverine scrub, and wetland — each host distinct bird communities." },
+      { title: 'Rare Sightings', body: "Bengal florican, grass owlets, jerdon's babbler, and various endangered raptors are regular recorded sightings." },
+      { title: 'Expert Guides', body: 'Our birding guides hold specialist qualifications and carry optical equipment for identification support.' },
+    ],
+    whatToExpect: ['Pre-dawn or dawn start for peak activity', 'Slow-paced walk through multiple habitat zones', 'Spotting scope and binoculars provided', 'Detailed identification notes', 'Species checklist provided on return'],
+    practicalNotes: ['Bring your own binoculars if possible', 'Dress in muted, natural tones', 'Full-day version includes a riverside lunch break', 'Best October–May; February–April peak season'],
+    order: 3,
+  },
+  {
+    slug: 'tharu-cultural-program',
+    title: 'Tharu Cultural Evening',
+    tag: 'Culture',
+    duration: 'Evening (3–4 hours)',
+    img: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=1400&q=80&fit=crop',
+    description:
+      'Immerse yourself in the living culture of the Rana Tharu — the indigenous people of the Bardia region, whose ancestors coexisted with this jungle for centuries before it became a national park. Traditional dance, local food, and genuine storytelling in a firelit setting.',
+    highlights: [
+      { title: 'Traditional Dance', body: "The Tharu stick dance and ritual performances are deeply expressive — energetic, symbolic, and unlike anything you've seen." },
+      { title: 'Food & Fire', body: 'The evening includes a traditional Tharu meal around a fire — flavours rooted in local ingredients and centuries of practice.' },
+      { title: 'Genuine Connection', body: "This isn't a staged show. The Tharu guides are from the local community and share their culture with authentic pride." },
+    ],
+    whatToExpect: ['Begin after sunset', 'Cultural performance with explanation', 'Traditional Tharu food served', 'Q&A with community members', 'Storytelling around the fire'],
+    practicalNotes: ['Included in most packages; also bookable standalone', 'Respectful dress appreciated', 'Photography welcome with courtesy', 'Children find this particularly engaging'],
+    order: 4,
+  },
+  {
+    slug: 'fishing-tour',
+    title: 'Fishing Tour',
+    tag: 'Specialty',
+    duration: 'Full Day',
+    img: 'https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=1400&q=80&fit=crop',
+    description:
+      "Cast a line in the Babai or Karnali rivers for golden mahseer — one of the world's greatest sport fish, revered for its size, power, and the pristine habitat it requires. Accompanied by pristine jungle scenery and complete riverside tranquility.",
+    highlights: [
+      { title: 'Golden Mahseer', body: 'These powerful, golden-scaled fish can reach over 50kg. Catching one in Bardia is a genuine trophy experience.' },
+      { title: 'Pristine Habitat', body: "The Babai and Karnali are among Nepal's cleanest river systems — mahseer thrive here precisely because of that purity." },
+      { title: 'Catch & Release', body: 'We practice catch and release as standard, in alignment with conservation values.' },
+    ],
+    whatToExpect: ['Early morning departure to river', 'All tackle and equipment provided', 'Expert local fishing guide', 'Riverside packed lunch', 'Afternoon fishing session', 'Return to resort at sunset'],
+    practicalNotes: ['No prior experience necessary', 'Bring sun protection and hat', 'Polarised sunglasses helpful for spotting fish', 'Fishing permit included in package'],
+    order: 5,
+  },
+  {
+    slug: 'bicycle-tour',
+    title: 'Bicycle Tour',
+    tag: 'Exploration',
+    duration: 'Half Day',
+    img: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1400&q=80&fit=crop',
+    description:
+      "Pedal along jungle-fringe paths, village lanes, and buffer zone trails — an unhurried way to experience the human landscape surrounding the national park. Meet Tharu farmers, visit local markets, and feel the gentle rhythm of life at the park's edge.",
+    highlights: [
+      { title: 'The Buffer Zone', body: 'The area surrounding the core park zone is a fascinating landscape where farming communities live alongside wildlife.' },
+      { title: 'Village Life', body: 'Cycling pace is perfectly matched to spontaneous village encounters and local market stops.' },
+      { title: 'Light Activity', body: 'Flat, easy terrain makes this suitable for most fitness levels and ages.' },
+    ],
+    whatToExpect: ['Quality mountain bikes provided', 'Naturalist guide accompanies throughout', 'Visit local villages and markets', 'Photo stops at scenic points', 'Approximately 15–25km depending on route'],
+    practicalNotes: ['Helmets provided and mandatory', 'Suitable for ages 10+', 'Flat terrain — no technical cycling required', 'Best in morning before heat builds', 'Bring water and light snack'],
+    order: 6,
+  },
+];
