@@ -19,7 +19,7 @@ export class LocalDiskStorage implements ImageStorage {
     await fs.promises.writeFile(destPath, file.buffer);
 
     return {
-      url: `${config.backendPublicUrl}/uploads/${filename}`,
+      url: `${config.backendPublicUrl}/api/uploads/${filename}`,
     };
   }
 }
