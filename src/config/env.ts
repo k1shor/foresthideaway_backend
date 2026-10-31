@@ -14,6 +14,7 @@ const config = {
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
   adminName: process.env.ADMIN_NAME,
   adminEmail: process.env.ADMIN_EMAIL,
+  contactEmail: process.env.CONTACT_EMAIL,
   adminPassword: process.env.ADMIN_PASSWORD,
   maxUploadSizeMb: Number(process.env.MAX_UPLOAD_SIZE_MB) || 5,
   cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,

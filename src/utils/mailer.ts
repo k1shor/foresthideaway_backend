@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 export async function sendMail(opts: { subject: string; html: string; replyTo?: string }) {
   await transporter.sendMail({
     from: config.mailFrom,
-    to: config.adminEmail,
+    to: config.contactEmail,
     replyTo: opts.replyTo,
     subject: opts.subject,
     html: opts.html,
